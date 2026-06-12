@@ -18,6 +18,8 @@ assets/video/projects/
 assets/New_Projects/*/README/
 assets/pdf/*.pdf
 !assets/pdf/Yijia_Wang_Resume.pdf
+!assets/pdf/Yijia_Wang_Resume_EN.pdf
+!assets/pdf/Yijia_Wang_Resume_ZH.pdf
 
 # Original high-resolution videos are kept locally only.
 # Website pages use compressed versions in assets/video-small/.
