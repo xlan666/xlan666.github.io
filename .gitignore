@@ -1,0 +1,53 @@
+# Local/generated Jekyll output
+_site/
+_preview_site/
+_preview_live/
+_preview_projects_0605/
+
+# Local planning/source reference files, not part of the public website.
+docs/
+project-info-template.txt
+Yijia_Wang_CV.pdf
+Yijia_Wang_Thesis_U7952272.pdf
+assets/README.md
+assets/files/README.md
+assets/files/archive/
+assets/files/projects/
+assets/video/README.md
+assets/video/projects/
+assets/New_Projects/*/README/
+assets/pdf/*.pdf
+!assets/pdf/Yijia_Wang_Resume.pdf
+
+# Original high-resolution videos are kept locally only.
+# Website pages use compressed versions in assets/video-small/.
+assets/New_Projects/**/*.mp4
+assets/New_Pictures/**/*.mp4
+assets/video-source/**/*.mp4
+
+# Older scaffolded project assets kept locally only.
+assets/images/projects/3d-mapping-beijing/
+assets/images/projects/ar-vr-interaction/
+assets/images/projects/character-design/
+assets/images/projects/computer-graphics-rendering/
+assets/images/projects/computer-music-interfaces/
+assets/images/projects/figma-incar-ai/
+assets/images/projects/figma-wecare/
+assets/images/projects/immersive-burial-heart/
+assets/images/projects/immersive-environment/
+assets/images/projects/immersive-secret-recipe/
+assets/images/projects/sonics-dreamland/
+assets/images/projects/ar-musical-instruments/cover.webp
+assets/images/projects/ar-musical-instruments/detail-*.webp
+
+# Original raster images are kept locally; pages use optimized WebP versions.
+assets/**/*.png
+assets/**/*.jpg
+assets/**/*.jpeg
+assets/**/*.JPG
+assets/**/*.JPEG
+!assets/images/social-preview.jpg
+
+# Logs
+jekyll-server.log
+jekyll-server.err.log

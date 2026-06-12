@@ -1,0 +1,172 @@
+﻿title: Yijia Wang Portfolio
+description: Personal portfolio of Yijia Wang, a human-centred creative technologist working across XR, HCI, games, sound and interactive media.
+keywords: Yijia Wang, portfolio, creative technology, HCI, XR, Unity, interaction design, interactive media
+url: ""
+baseurl: ""
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docs
+  - project-info-template.txt
+  - Yijia_Wang_CV.pdf
+  - Yijia_Wang_Thesis_U7952272.pdf
+  - jekyll-server.log
+  - jekyll-server.err.log
+  - _site
+  - _preview_site
+  - _preview_live
+  - _preview_projects_0605
+  - assets/README.md
+  - assets/files/README.md
+  - assets/files/archive
+  - assets/files/projects
+  - assets/video/README.md
+  - assets/css/style.css
+  - assets/pdf/Yijia_Wang_CV.pdf
+  - assets/pdf/王奕嘉_2026.pdf
+  - assets/images/projects/character-design
+  - assets/images/projects/computer-music-interfaces
+  - assets/images/projects/figma-wecare
+  - assets/images/projects/immersive-environment
+  - assets/images/projects/immersive-secret-recipe
+  - assets/images/projects/sonics-dreamland
+  - assets/images/projects/ar-musical-instruments/cover.webp
+  - assets/images/projects/ar-musical-instruments/detail-01.webp
+  - assets/images/projects/ar-musical-instruments/detail-02.webp
+  - assets/images/projects/ar-musical-instruments/detail-03.webp
+  - assets/New_Projects/Turning AR/README
+  - assets/New_Projects/Burial_Heart/README
+  - assets/New_Projects/Secret_Recipe/README
+  - assets/New_Projects/Dreamland/README
+  - assets/New_Projects/Turning AR/14.2.mp4
+  - assets/New_Projects/Burial_Heart/video.mp4
+  - assets/New_Projects/Secret_Recipe/The Secret Recipe_Playthrough-Video.mp4
+  - assets/New_Projects/Secret_Recipe/The Secret Recipe_Video_Trailer.mp4
+  - assets/New_Projects/Dreamland/Dreamland.mp4
+  - assets/New_Pictures/ARVRProject/5.1.mp4
+  - assets/New_Pictures/ARVRProject/7.1.mp4
+  - assets/New_Pictures/ARVRProject/9.1.mp4
+  - assets/New_Pictures/3D-Mapping/1.mp4
+  - assets/New_Pictures/3D-Mapping/4.mp4
+  - assets/New_Pictures/CG-Rendering/7.mp4
+  - assets/New_Pictures/CG-Rendering/8.mp4
+  - assets/video-source
+  - assets/images/performances/ar-musical-instruments-performance/07.jpg
+  - assets/images/performances/ar-musical-instruments-performance/11.jpg
+  - assets/images/performances/ar-musical-instruments-performance/13.jpg
+  - assets/images/performances/ar-musical-instruments-performance/main.jpg
+  - assets/images/performances/group-performance/interface-01.png
+  - assets/images/performances/group-performance/interface-02.png
+  - assets/images/performances/group-performance/interface-03.png
+  - assets/images/performances/group-performance/main.png
+  - assets/images/performances/solo-performance/01.jpg
+  - assets/images/performances/solo-performance/main.jpg
+  - assets/images/profile/yijia-wang-portrait.jpeg
+  - assets/images/projects/ar-musical-instruments/6.jpg
+  - assets/images/projects/ar-musical-instruments/cover.jpg
+  - assets/images/projects/ar-musical-instruments/detail-01.png
+  - assets/images/projects/ar-musical-instruments/detail-02.jpg
+  - assets/images/projects/ar-musical-instruments/detail-03.jpg
+  - assets/images/projects/character-design/cover.png
+  - assets/images/projects/character-design/detail-01.png
+  - assets/images/projects/character-design/detail-02.png
+  - assets/images/projects/character-design/detail-03.png
+  - assets/images/projects/computer-music-interfaces/cover.png
+  - assets/images/projects/computer-music-interfaces/detail-01.png
+  - assets/images/projects/computer-music-interfaces/detail-02.png
+  - assets/images/projects/computer-music-interfaces/detail-03.png
+  - assets/images/projects/figma-wecare/cover.jpg
+  - assets/images/projects/figma-wecare/logo.png
+  - assets/images/projects/figma-wecare/whole-project.png
+  - assets/images/projects/immersive-environment/cover.png
+  - assets/images/projects/immersive-environment/detail-01.png
+  - assets/images/projects/immersive-environment/detail-02.png
+  - assets/images/projects/immersive-environment/detail-03.png
+  - assets/images/projects/immersive-secret-recipe/cover.png
+  - assets/images/projects/immersive-secret-recipe/detail-01.png
+  - assets/images/projects/immersive-secret-recipe/detail-02.png
+  - assets/images/projects/immersive-secret-recipe/detail-03.png
+  - assets/images/projects/sonics-dreamland/cover.png
+  - assets/images/projects/sonics-dreamland/detail-01.png
+  - assets/images/projects/sonics-dreamland/detail-02.png
+  - assets/images/projects/sonics-dreamland/detail-03.png
+  - assets/images/projects/sonics-dreamland/detail-04.png
+  - assets/New_Pictures/3D-Mapping/1.png
+  - assets/New_Pictures/3D-Mapping/2.png
+  - assets/New_Pictures/3D-Mapping/3.png
+  - assets/New_Pictures/3D-Mapping/4.png
+  - assets/New_Pictures/3D-Mapping/Main.png
+  - assets/New_Pictures/ARVRProject/1.png
+  - assets/New_Pictures/ARVRProject/10.png
+  - assets/New_Pictures/ARVRProject/11.png
+  - assets/New_Pictures/ARVRProject/2.png
+  - assets/New_Pictures/ARVRProject/3.png
+  - assets/New_Pictures/ARVRProject/4.png
+  - assets/New_Pictures/ARVRProject/5.png
+  - assets/New_Pictures/ARVRProject/6.png
+  - assets/New_Pictures/ARVRProject/7.png
+  - assets/New_Pictures/ARVRProject/8.png
+  - assets/New_Pictures/ARVRProject/9.png
+  - assets/New_Pictures/ARVRProject/Main.png
+  - assets/New_Pictures/CG-Rendering/1.png
+  - assets/New_Pictures/CG-Rendering/2.png
+  - assets/New_Pictures/CG-Rendering/3.png
+  - assets/New_Pictures/CG-Rendering/4.png
+  - assets/New_Pictures/CG-Rendering/5.png
+  - assets/New_Pictures/CG-Rendering/6.5.jpg
+  - assets/New_Pictures/CG-Rendering/6.png
+  - assets/New_Pictures/CG-Rendering/Main.png
+  - assets/New_Pictures/Character_design/1.png
+  - assets/New_Pictures/Character_design/2.png
+  - assets/New_Pictures/Character_design/3.png
+  - assets/New_Pictures/Character_design/4.png
+  - assets/New_Pictures/Character_design/5.png
+  - assets/New_Pictures/Character_design/6.png
+  - assets/New_Pictures/Character_design/Main.png
+  - assets/New_Pictures/Immersive_Environment/1.png
+  - assets/New_Pictures/Immersive_Environment/2.png
+  - assets/New_Pictures/Immersive_Environment/3.png
+  - assets/New_Pictures/Immersive_Environment/4.png
+  - assets/New_Pictures/Immersive_Environment/5.png
+  - assets/New_Pictures/Immersive_Environment/6.png
+  - assets/New_Pictures/Immersive_Environment/7.png
+  - assets/New_Pictures/Immersive_Environment/8.png
+  - assets/New_Pictures/Immersive_Environment/9.png
+  - assets/New_Pictures/Immersive_Environment/Main.png
+  - assets/New_Projects/Burial_Heart/1.png
+  - assets/New_Projects/Burial_Heart/2.png
+  - assets/New_Projects/Burial_Heart/3.png
+  - assets/New_Projects/Burial_Heart/4.png
+  - assets/New_Projects/Burial_Heart/5.png
+  - assets/New_Projects/Burial_Heart/Main.png
+  - assets/New_Projects/Dreamland/1.png
+  - assets/New_Projects/Dreamland/2.png
+  - assets/New_Projects/Dreamland/3.png
+  - assets/New_Projects/Dreamland/4.png
+  - assets/New_Projects/Dreamland/Main.png
+  - assets/New_Projects/Secret_Recipe/1.png
+  - assets/New_Projects/Secret_Recipe/2.png
+  - assets/New_Projects/Secret_Recipe/3.png
+  - assets/New_Projects/Secret_Recipe/4.png
+  - assets/New_Projects/Secret_Recipe/5.png
+  - assets/New_Projects/Secret_Recipe/6.png
+  - assets/New_Projects/Secret_Recipe/Main.png
+  - assets/New_Projects/Turning AR/1.jpg
+  - assets/New_Projects/Turning AR/1.png
+  - assets/New_Projects/Turning AR/10.JPG
+  - assets/New_Projects/Turning AR/11.JPG
+  - assets/New_Projects/Turning AR/12.jpg
+  - assets/New_Projects/Turning AR/13.jpg
+  - assets/New_Projects/Turning AR/14.jpg
+  - assets/New_Projects/Turning AR/2.jpg
+  - assets/New_Projects/Turning AR/3.jpg
+  - assets/New_Projects/Turning AR/4.jpg
+  - assets/New_Projects/Turning AR/5.JPG
+  - assets/New_Projects/Turning AR/6.JPG
+  - assets/New_Projects/Turning AR/7.JPG
+  - assets/New_Projects/Turning AR/8.JPG
+  - assets/New_Projects/Turning AR/9.JPG
+  - assets/New_Projects/Turning AR/Main.JPG

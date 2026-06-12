@@ -1,0 +1,22 @@
+<footer class="site-footer">
+  <div class="site-footer__grid">
+    <div>
+      <h2>{% if page.lang == 'zh-CN' %}联系{% else %}Contact{% endif %}</h2>
+      <p><a href="mailto:yijia0823@gmail.com">yijia0823@gmail.com</a></p>
+    </div>
+    <div>
+      <h2>{% if page.lang == 'zh-CN' %}关注{% else %}Follow{% endif %}</h2>
+      <p><a href="https://www.linkedin.com/in/yijia-wang-5bb147321" target="_blank" rel="noopener">LinkedIn</a></p>
+      <p><a href="https://github.com/xlan666" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+    <div>
+      {% if page.lang == 'zh-CN' %}
+        <p>&copy; 2026 王奕嘉 Yijia Wang</p>
+        <p>个人创意技术作品集。</p>
+      {% else %}
+        <p>&copy; 2026 Yijia Wang</p>
+        <p>Personal creative technology portfolio.</p>
+      {% endif %}
+    </div>
+  </div>
+</footer>
