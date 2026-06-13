@@ -6,20 +6,20 @@
 
   function equivalentPath(path, targetLang) {
     if (targetLang === "zh") {
-      if (path === "/" || path === "/index.html" || path === "/en/" || path === "/en/index.html") {
+      if (path === "/" || path === "/index.html" || path === "/en" || path === "/en/" || path === "/en/index.html") {
         return "/zh/";
       }
       if (path.indexOf("/en/") === 0) {
-        return path.replace("/en/", "/zh/");
+        return path.replace("/en/", "/zh/").replace(/\.html$/, "/");
       }
       return "/zh/";
     }
 
-    if (path === "/zh/" || path === "/zh/index.html") {
+    if (path === "/zh" || path === "/zh/" || path === "/zh/index.html") {
       return "/";
     }
     if (path.indexOf("/zh/") === 0) {
-      return path.replace("/zh/", "/en/");
+      return path.replace("/zh/", "/en/").replace(/\.html$/, "/");
     }
     return "/";
   }
@@ -27,7 +27,7 @@
   function redirectTo(targetLang) {
     var nextPath = equivalentPath(window.location.pathname, targetLang);
     if (nextPath !== window.location.pathname) {
-      window.location.href = nextPath;
+      window.location.href = nextPath + window.location.search + window.location.hash;
     }
   }
 

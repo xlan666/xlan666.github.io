@@ -6,7 +6,7 @@
   {% assign nav_performances = '表演' %}
   {% assign nav_pictures = '图像作品' %}
   {% assign nav_about = '关于我' %}
-  {% if page.url == '/zh/' or page.url == '/zh/index.html' %}
+  {% if page.url == '/zh/' %}
     {% assign other_lang_url = '/' %}
   {% else %}
     {% assign other_lang_url = page.url | replace_first: '/zh/', '/en/' %}
@@ -21,7 +21,7 @@
   {% assign nav_performances = 'Performances' %}
   {% assign nav_pictures = 'Pictures' %}
   {% assign nav_about = 'About Me' %}
-  {% if page.url == '/' or page.url == '/index.html' or page.url == '/en/' or page.url == '/en/index.html' %}
+  {% if page.url == '/' or page.url == '/en/' %}
     {% assign other_lang_url = '/zh/' %}
   {% else %}
     {% assign other_lang_url = page.url | replace_first: '/en/', '/zh/' %}
@@ -33,10 +33,10 @@
 <header class="site-header">
   <a class="site-logo" href="{{ logo_url | relative_url }}" aria-label="{{ logo_label }} home">{{ logo_label }}</a>
   <nav class="site-nav" aria-label="Main navigation">
-    <a href="{{ root | append: '/projects.html' | relative_url }}">{{ nav_projects }}</a>
-    <a href="{{ root | append: '/performances.html' | relative_url }}">{{ nav_performances }}</a>
-    <a href="{{ root | append: '/pictures.html' | relative_url }}">{{ nav_pictures }}</a>
-    <a href="{{ root | append: '/about-me.html' | relative_url }}">{{ nav_about }}</a>
+    <a href="{{ root | append: '/projects/' | relative_url }}">{{ nav_projects }}</a>
+    <a href="{{ root | append: '/performances/' | relative_url }}">{{ nav_performances }}</a>
+    <a href="{{ root | append: '/pictures/' | relative_url }}">{{ nav_pictures }}</a>
+    <a href="{{ root | append: '/about-me/' | relative_url }}">{{ nav_about }}</a>
     <a class="language-toggle" href="{{ other_lang_url | relative_url }}" data-lang-toggle data-target-lang="{{ target_lang }}">{{ other_lang_label }}</a>
   </nav>
 </header>
